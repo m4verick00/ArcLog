@@ -1,0 +1,4 @@
+-- This is a placeholder for the cities database
+-- In production, this would be a pre-populated SQLite database
+-- with city names, coordinates, and metadata for offline geocoding
+-- Size would be approximately 3-8 MB with major cities worldwide
