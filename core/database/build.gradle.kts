@@ -13,10 +13,6 @@ android {
     defaultConfig {
         minSdk = 26
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        
-        room {
-            schemaOutputDir = "$projectDir/schemas"
-        }
     }
 
     compileOptions {
@@ -27,6 +23,10 @@ android {
     kotlinOptions {
         jvmTarget = "1.8"
     }
+}
+
+room {
+    schemaDirectory("$projectDir/schemas")
 }
 
 dependencies {

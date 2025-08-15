@@ -22,10 +22,6 @@ android {
         vectorDrawables {
             useSupportLibrary = true
         }
-
-        room {
-            schemaOutputDir = "$projectDir/schemas"
-        }
     }
 
     flavorDimensions += "version"
@@ -79,6 +75,11 @@ android {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
     }
+}
+
+// Room schema output directory
+room {
+    schemaDirectory("$projectDir/schemas")
 }
 
 dependencies {
