@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArcLogbook</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="logbook">Logbook</string>
+    <string name="intel">Threat Intel</string>
+    <string name="vuln">Vulnerabilities</string>
+    <string name="darkweb">Dark Web Monitor</string>
+    <string name="osint">OSINT Toolkit</string>
+    <string name="metadata">Metadata Extractor</string>
+    <string name="ai">AI Assistant</string>
+    <string name="connectors">Connectors</string>
+    <string name="settings">Settings</string>
+    
+    <!-- Mode labels -->
+    <string name="mode_simple">Simple</string>
+    <string name="mode_advanced">Advanced</string>
+    <string name="mode_expert">Expert</string>
+    
+    <!-- Common actions -->
+    <string name="copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="export">Export</string>
+    <string name="view_on_maps">View on Maps</string>
+    
+    <!-- Privacy -->
+    <string name="privacy_mode_enabled">Privacy mode enabled</string>
+    <string name="biometric_required">Biometric authentication required</string>
+    
+    <!-- Metadata -->
+    <string name="gps_coordinates">GPS Coordinates</string>
+    <string name="location_near">Near %1$s</string>
+    <string name="reverse_geo_offline">Offline lookup</string>
+    <string name="reverse_geo_online">Online lookup</string>
+</resources>
